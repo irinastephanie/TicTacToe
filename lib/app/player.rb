@@ -9,4 +9,3 @@ attr_reader :name, :symbol #attribut d'un joueur
         puts "Le jouer #{name} joue avec le symbole #{symbol}!"
     end 
 end
-#comment la personne joue(afilié a game)

@@ -32,7 +32,7 @@ class Board #le plateau.
         # Indique si la case est pleine
         i = 0
         @boardcase.each { |c| i += 1 if c != ' ' }
-        i == 9
+        i == 8
       end
     #méthode qui indique une victoire
     def wins? 

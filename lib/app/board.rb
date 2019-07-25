@@ -34,6 +34,7 @@ class Board #le plateau.
         @boardcase.each { |c| i += 1 if c != ' ' }
         i == 9
       end
+    #méthode qui indique une victoire
     def wins? 
     wins = []
     win1 = [@boardcase[0], @boardcase[1], @boardcase[2]]

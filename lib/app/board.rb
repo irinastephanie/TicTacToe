@@ -28,6 +28,12 @@ class Board #le plateau.
         boardcase[index] = symbol
     #une méthode change la BoardCase jouée en fonction de la valeur du joueur (X ou O)
     end
+    def full?
+        # Indique si la case est pleine
+        i = 0
+        @boardcase.each { |c| i += 1 if c != ' ' }
+        i == 9
+      end
     def wins? 
     wins = []
     win1 = [@boardcase[0], @boardcase[1], @boardcase[2]]

@@ -21,7 +21,7 @@ class Board #le plateau.
     def get_boardcase
         puts "C'est ton tour, choisis une case entre 0 et 8"
         boardcase = gets.chomp.to_i
-        boardcase
+        choose_boardcase
         #demande au bon joueur ce qu'il souhaite faire
     end 
     def choose_boardcase(index, symbol)

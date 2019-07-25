@@ -1,9 +1,9 @@
 class Boardcase #case, avec 9 instances.
-attr_accessor :symbol ,:id_case
+attr_accessor :symbol ,:boardcase
 
-def initialize(symbol, id_case)
+def initialize(symbol, boardcase)
     @symbol = [X, O, nil]
-    @id_case = [0..8]
+    @boardcase = [0..8]
 
 end
 end
